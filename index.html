@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omega Code XAI Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+
+    <header>
+        <h1>Ωmega Code XAI</h1>
+        <p>Mini Dashboard Futuristik - Versi Final</p>
+    </header>
+
+    <main>
+        <div class="dashboard">
+            <div class="status">Status: <span id="status">Offline</span></div>
+            <div class="status">Analisis: <span id="analysis">Idle</span></div>
+        </div>
+
+        <button class="actionBtn" data-msg="XAI sedang memproses...">Aktifkan XAI</button>
+        <button class="actionBtn" data-msg="Analisis data selesai!">Analisis Cepat</button>
+        <button class="actionBtn" data-msg="Sistem stabil & siap!">Cek Sistem</button>
+
+        <div id="output"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Omega Code</p>
+    </footer>
+
+    <audio id="btnSound" src="click.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

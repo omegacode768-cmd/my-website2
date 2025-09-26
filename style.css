@@ -1,0 +1,79 @@
+/* Tema Futuristik Gelap */
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #0d0d0d;
+    color: #00ffea;
+    text-align: center;
+}
+
+canvas#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+header {
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #00ffe0;
+    margin-bottom: 5px;
+}
+p {
+    color: #66fff9;
+    font-size: 16px;
+}
+
+/* Dashboard mini */
+.dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.status {
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: rgba(0,255,234,0.1);
+    border-radius: 5px;
+}
+
+/* Tombol */
+button.actionBtn {
+    padding: 12px 25px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff00ff;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff00ff;
+    transition: all 0.3s ease;
+}
+button.actionBtn:hover {
+    box-shadow: 0 0 25px #ff33ff, 0 0 50px #ff00ff;
+    transform: scale(1.05);
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    min-height: 30px;
+    color: #00ffea;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    color: #00ffea;
+    font-size: 14px;
+}
